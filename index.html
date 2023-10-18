@@ -1,4 +1,15 @@
-<html><head>
+<html>
+  <head>
+    <style>
+      #uuid { font-family: monospace; font-size: 1.5em; }
+    </style>
+</head>
+<body>
+  <center>
+    <p id="uuid"></p>
+<!--<button id="generateUUID" onclick="onClick();">Generate UUID</button>-->
+  </center>
+
   <script>
     function generateUUID() { // Public Domain/MIT
         var d = new Date().getTime();//Timestamp
@@ -21,14 +32,5 @@
     }
     onClick();
   </script>
-  <style>
-    #uuid { font-family: monospace; font-size: 1.5em; }
-  </style>
-</head>
-<body>
-  <center>
-    <p id="uuid"></p>
-<!--<button id="generateUUID" onclick="onClick();">Generate UUID</button>-->
-  </center>
 </body>
 </html>
